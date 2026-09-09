@@ -61,7 +61,7 @@ async function open_(pass){
     return say("Ce navigateur ne peut pas d\u00e9chiffrer la page (HTTPS requis).",true);
   go.disabled=true;say("D\u00e9chiffrement\u2026",false);
   try{
-    var r=await fetch("payload.bin",{cache:"force-cache"});
+    var r=await fetch("payload.bin",{cache:"no-cache"});
     if(!r.ok)throw new Error("payload");
     var b=new Uint8Array(await r.arrayBuffer());
     var salt=b.slice(0,16),iv=b.slice(16,28),body=b.slice(28);
