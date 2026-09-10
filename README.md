@@ -1,3 +1,6 @@
-Document chiffre. Le contenu de ce depot est illisible sans mot de passe.
+Documents chiffres. Rien ici n'est lisible sans le mot de passe.
 
-Encrypted document. Nothing here is readable without the password.
+- `/`      prototype jouable
+- `/codex/` bible narrative
+
+Encrypted documents. Nothing here is readable without the password.
